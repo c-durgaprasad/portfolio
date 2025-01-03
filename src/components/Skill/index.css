@@ -1,0 +1,27 @@
+.article-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+  
+.badge{
+  width: 72px;
+  padding: 0px;
+  cursor: pointer;
+  height: 45px;
+}
+ 
+article {
+    display: flex;
+    width: 10rem;
+    justify-content: space-around;
+    gap: 0.5rem;
+}
+@media screen and (min-width: 1100px) {
+    article{
+        padding-right: 16px;
+    }
+}

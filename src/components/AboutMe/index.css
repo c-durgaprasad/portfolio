@@ -1,0 +1,133 @@
+.about-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+    font-size: 36px;
+  }
+.section__text__p1 {
+    text-align: center;
+}
+
+.exp-edu-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-pic {
+    border-radius: 2rem;
+    width: 180px;
+    height: 180px;
+    margin-bottom: 10px;
+}
+@media screen and (min-width: 500px) {
+    .about-pic{
+        width: 230px;
+        height: 230px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .about-pic{
+        width: 260px;
+        height: 260px;
+    }
+}
+@media screen and (min-width: 1100px) {
+    .about-pic{
+        width: 370x;
+        height: 370px;
+    }
+}
+.about-sec-icon{
+    font-size: 35px;
+}
+
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    width: 150px;
+    margin: 10px;
+  }
+  .text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+  }
+  .bg-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+  @media screen and (min-width: 390px) {
+    .bg-details{
+        display: flex;
+        flex-direction: row;
+    }
+    .details-container{
+        width: 120px;
+        height: 150px;
+    }
+    
+  }
+
+  @media screen and (min-width:768px) {
+    .title{
+        font-size: 55px;
+    }
+    .section__text__p1{
+        font-size: 20px;
+    }
+    .about-pic{
+        width: 30%;
+    }
+    .details-container{
+        width: 350px;
+    }
+    .about-sec-icon{
+        font-size: 42px;
+    }
+    h3,p{
+        font-size: 22px;
+    }
+  }
+
+@media screen and (min-width: 1300px) {
+    .title{
+        font-size: 44px;
+    }
+    .section__text__p1{
+        font-size: 18px;
+    }
+    .about-pic{
+        width: 340px;
+        margin-left: 20px;
+    }
+    .exp-edu-section{
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+    }
+    .exp-edu{
+        margin-left: 40px;
+    }
+    .details-container{
+        width: 120px;
+        margin-top: 20px;
+    }
+    .text{
+        padding-top: 20px;
+    }
+    
+}
