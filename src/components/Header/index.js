@@ -27,6 +27,7 @@ class Header extends Component{
           <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About Me</Link></li>
           <li><Link to="/experience" className="li">Experience</Link></li>
+          <li><Link to="/projects" className="li">Projects</Link></li>
           <li><Link to="/contact" className="li">Contact</Link></li>      
         </ul>
       </div>
@@ -34,6 +35,7 @@ class Header extends Component{
           <li><Link to="/" className="li">Home</Link></li>
           <li><Link to="/about" className="li">About Me</Link></li>
           <li><Link to="/experience" className="li">Experience</Link></li>
+          <li><Link to="/projects" className="li">Projects</Link></li>
           <li><Link to="/contact" className="li">Contact</Link></li>
         </ul>
     </nav>

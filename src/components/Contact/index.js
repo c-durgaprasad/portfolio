@@ -1,3 +1,4 @@
+import {Link} from "react-router-dom"
 import "./index.css"
 
 import Header from "../Header"
@@ -17,9 +18,10 @@ const Contact = ()=>
             <li>Email: dprasad.ch10@gmail.com</li>
             <li>Phone: +919666995796</li>
             <li>Social Media:
-              <a href="#linkedin"> LinkedIn</a>,  
-              <a href="#twitter"> Instagram</a>, 
-              <a href="#youtube"> YouTube</a>
+              <a href="https://linkedin.com/in/dprasad10" target='__blank'> LinkedIn</a>,  
+              <a href="https://github.com/c-durgaprasad" target='__blank'> GitHub</a>,
+              <a href="https://api.whatsapp.com/send?phone=9666995796" target='__blank'> Whatsapp</a>,
+              <a href="https://www.instagram.com/ojas_gambheera_2410/profilecard/?igsh=MWxkNDZ0OTRtbTZyMA==" target='__blank'> Instagram</a>
             </li>
           </ul>
         </div>

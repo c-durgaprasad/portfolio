@@ -25,7 +25,7 @@ const AboutMe = ()=>
               <div className="details-container">
                   <GiAchievement className="about-sec-icon"/>
                   <h3>Experience</h3>
-                  <p>2+ years <br />Frontend Development</p>
+                  <p>2+ years <br />Fullstack Development</p>
               </div>
               <div className="details-container">
                   <FaUserGraduate className="about-sec-icon"/>
@@ -35,12 +35,12 @@ const AboutMe = ()=>
             </div>
             <div className="text">
               <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-                  reprehenderit et laborum, rem, dolore eum quod voluptate
-                  exercitationem nobis, nihil esse debitis maxime facere minus sint
-                  delectus velit in eos quo officiis explicabo deleniti dignissimos.
-                  Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-                  reiciendis ea magnam? Nulla, impedit fuga!
+                  Driven MCA graduate seeking a challenging software development role to leverage 
+                  advanced programming skills, problem-solving abilities, and comprehensive knowledge 
+                  of computer applications to contribute to innovative projects and organizational growth.
+                  At NxtWave’s CCBP 4.0 Intensive, I’m currently learning fullstack development with a 
+                  specialization in 4.0 technologies. In love with the coding challenges and hands-on projects. 
+                  With Industry’s first ever IRC 4.0, getting ready to take on new challenges in the tech world.
                 </p>
             </div>
             </div>

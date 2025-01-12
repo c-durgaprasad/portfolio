@@ -1,0 +1,15 @@
+.projects-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+@media screen and (min-width: 670px) {
+    .projects-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+.projects-bg{
+    margin-bottom: 15px;
+}

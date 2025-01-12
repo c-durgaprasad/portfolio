@@ -3,6 +3,7 @@ import Home from './components/Home'
 import AboutMe from './components/AboutMe'
 import Experience from './components/Experience';
 import Contact from './components/Contact';
+import Projects from "./components/Projects"
 
 
 import './App.css';
@@ -14,6 +15,7 @@ function App() {
         <Route exact path="/" element={<Home/>}/>
         <Route exact path="/about" element={<AboutMe/>}/>
         <Route exact path="/experience" element={<Experience/>}/>
+        <Route exact path="/projects" element={<Projects/>}/>
         <Route exact path="/contact" element={<Contact/>}/>
       </Routes>
     </BrowserRouter>

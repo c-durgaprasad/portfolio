@@ -14,7 +14,7 @@ class Home extends Component{
 
     render(){
         return (
-        <>
+        <div className="home-bg" >
           <Header/>
           <div className="home-container">
             <div>
@@ -27,9 +27,11 @@ class Home extends Component{
                 <h1 className="name">Durga Prasad</h1>
                 <p className="stack">Fullstack Developer</p>
                 <div className="btn-container">
-                    <button className="btn btn-color-1">Download CV</button>
+                    <a href="https://drive.google.com/file/d/1YEg36Ohs8bvF0kMvUDxSRVgnnMctfrVI/view?usp=sharing" target="__blank">
+                        <button className="btns btn-color-1">Download CV</button>
+                    </a>
                     <Link to="/contact">
-                        <button className="btn btn-color-2">Contact Info</button>
+                        <button className="btns btn-color-2">Contact Info</button>
                     </Link>
                 </div>
                 <div className="icons-container">
@@ -39,7 +41,7 @@ class Home extends Component{
             </div>
           </div>
           <Footer/>
-        </> 
+        </div> 
         )
     }
 }
