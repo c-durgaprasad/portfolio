@@ -47,11 +47,6 @@ p {
     text-decoration: none;
   }
   
-  .footer-content ul li: hover {
-    text-decoration: underline;
-  }
-  
-  
   .contact-section { 
     display: flex;
     flex-direction: column;
@@ -77,6 +72,9 @@ p {
         margin-bottom: 10px;
         margin-top: 10px;
       }
+    .quick-links-container{
+      margin-bottom: 30px;
+    }
 }
   
 @media screen and (min-width: 1100px) {
