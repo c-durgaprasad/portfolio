@@ -26,7 +26,7 @@ class Header extends Component{
         <ul className={`menu-links ${clicked}`}>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About Me</Link></li>
-          <li><Link to="/experience" className="li">Experience</Link></li>
+          <li><Link to="/skills" className="li">Skills</Link></li>
           <li><Link to="/projects" className="li">Projects</Link></li>
           <li><Link to="/contact" className="li">Contact</Link></li>      
         </ul>
@@ -34,7 +34,7 @@ class Header extends Component{
       <ul className="hamburger-menu-lg">
           <li><Link to="/" className="li">Home</Link></li>
           <li><Link to="/about" className="li">About Me</Link></li>
-          <li><Link to="/experience" className="li">Experience</Link></li>
+          <li><Link to="/skills" className="li">Skills</Link></li>
           <li><Link to="/projects" className="li">Projects</Link></li>
           <li><Link to="/contact" className="li">Contact</Link></li>
         </ul>

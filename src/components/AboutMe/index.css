@@ -43,21 +43,25 @@
     }
 }
 .about-sec-icon{
-    font-size: 35px;
+    font-size: 30px;
 }
 
 
-.details-container {
+.about-details-container {
     padding: 1.5rem;
-    flex: 1;
     background: white;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
-    width: 150px;
+    width: 180px;
     margin: 10px;
-  }
+    height: 94px;
+}
+h3{
+    font-size: 16px;
+}
+
   .text{
     display: flex;
     justify-content: center;
@@ -70,18 +74,7 @@
     align-items: center;
 }
   
-  @media screen and (min-width: 390px) {
-    .bg-details{
-        display: flex;
-        flex-direction: row;
-    }
-    .details-container{
-        width: 120px;
-        height: 150px;
-    }
-    
-  }
-
+  
   @media screen and (min-width:768px) {
     .title{
         font-size: 55px;
@@ -92,20 +85,30 @@
     .about-pic{
         width: 30%;
     }
-    .details-container{
-        width: 350px;
+    .about-details-container{
+        width: 180px;
+        height: 110px;
     }
     .about-sec-icon{
         font-size: 42px;
     }
     h3,p{
-        font-size: 22px;
+        font-size: 20px;
+    }
+    .bg-details{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
   }
 
 @media screen and (min-width: 1300px) {
+    h3,p{
+        font-size: 20px;
+    }
     .title{
         font-size: 44px;
+
     }
     .section__text__p1{
         font-size: 18px;
@@ -120,14 +123,28 @@
         margin: 10px;
     }
     .exp-edu{
-        margin-left: 40px;
+        margin-left: 10px;
     }
-    .details-container{
-        width: 120px;
+    .about-details-container{
+        width: 200px;
         margin-top: 20px;
     }
     .text{
         padding-top: 20px;
     }
+    .view-btn{
+        width: 120px;
+        height: 33px;
+    }
     
 }
+
+.view-btn {
+    font-weight: 600;
+    transition: all 300ms ease;
+    width: 100px;
+    border-radius: 2rem;
+    height: 29px;
+    padding: 4px;
+    margin-top: 8px;
+  }

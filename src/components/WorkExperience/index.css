@@ -1,0 +1,93 @@
+.work-experience-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  
+  
+  .experience-card {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e0e0e0;
+  }
+  
+  .experience-card:last-child {
+    border-bottom: none;
+  }
+  
+  .job-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #222;
+  }
+  
+  .company-info {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+  }
+  
+  .location {
+    font-size: 14px;
+    font-style: italic;
+    color: #777;
+    margin-top: 5px;
+  }
+  
+  .responsibilities {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: 15px;
+  }
+  
+  .responsibilities li {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 5px;
+  }
+  .technologies {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+  }
+  @media screen and (min-width: 768px) {
+    .responsibilities li{
+        font-size: 15px;
+    }
+    .job-title{
+        font-size: 20px;
+    }
+    .company-info{
+        font-size: 15px;
+    }
+    .technologies{
+        font-size: 15px;
+    }
+}
+
+@media screen  and (min-width: 900px){
+    .responsibilities li {
+        font-size: 16px;
+    }
+    .job-title{
+        font-size: 22px;
+    }
+    .company-info{
+        font-size: 16px;
+    }
+    .technologies{
+        font-size: 16px;
+    }
+}
+
+.technologies span {
+    font-weight: normal;
+    color: #555;
+}

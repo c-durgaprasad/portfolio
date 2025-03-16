@@ -67,11 +67,11 @@ const otherSkill = [{
   icon: "https://icon-library.com/images/microsoft-office-logo-icon/microsoft-office-logo-icon-1.jpg"
 }]
 
-const Experience = ()=> 
+const Skills = ()=> 
     <div>
       <Header/>
       <p className="section__text__p1">Explore My</p>
-      <h1 className="title">Experience</h1>
+      <h1 className="title">Skills</h1>
       <div className="details-section">
         <h1 className="skill-heading">Frontend Development</h1>
         <div className="skill-all-container">
@@ -115,4 +115,4 @@ const Experience = ()=>
       <Footer/>
     </div>
 
-export default Experience
+export default Skills

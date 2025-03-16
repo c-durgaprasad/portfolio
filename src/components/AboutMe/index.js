@@ -1,5 +1,7 @@
+import {Link} from "react-router-dom"
 import { GiAchievement } from "react-icons/gi";
 import { FaUserGraduate } from "react-icons/fa";
+import { BsBriefcaseFill } from "react-icons/bs";
 
 
 import Header from "../Header"
@@ -13,7 +15,6 @@ const AboutMe = ()=>
         <div className="about-section">
           <p className="section__text__p1">Get To Know More</p>
           <h1 className="title">About Me</h1>
-
           <div className="exp-edu-section">
             <img
                   src="https://i.postimg.cc/HkMgqB8M/IMG-20250104-003037.jpg"
@@ -22,16 +23,28 @@ const AboutMe = ()=>
                 />
             <div className="exp-edu">
             <div className="bg-details">
-              <div className="details-container">
-                  <GiAchievement className="about-sec-icon"/>
+              <div className="about-details-container">
+                  <BsBriefcaseFill className="about-sec-icon"/>
                   <h3>Experience</h3>
-                  <p>2+ years <br />Fullstack Development</p>
+                  <Link to="/experience">
+                    <button className="view-btn btn-color-1">View</button>
+                  </Link>
               </div>
-              <div className="details-container">
+              <div className="about-details-container">
                   <FaUserGraduate className="about-sec-icon"/>
                   <h3>Education</h3>
-                  <p>MCA Masters Degree<br />B.Sc Bachelors Degree</p>
+                  <Link to="/education">
+                    <button className="view-btn btn-color-1">View</button>
+                  </Link>
               </div>
+              
+                <div className="about-details-container">
+                    <GiAchievement className="about-sec-icon"/>
+                    <h3>Certificates</h3>
+                    <Link to="/certificates">
+                      <button className="view-btn btn-color-1">View</button>
+                    </Link>
+                </div>
             </div>
             <div className="text">
               <p>
@@ -45,8 +58,6 @@ const AboutMe = ()=>
             </div>
             </div>
           </div>
-            
-          
         </div>
         <Footer/>
         
