@@ -9,56 +9,56 @@ const certificates = [
         title:"HTML, CSS and Bootstrap",
         issuer: "NxtWave",
         date:"November 06, 2022",
-        url: "https://certificates.ccbp.in/intensive/static-website?id=UZUEFVNXHX"
+        url: "https://media-content.ccbp.in/certificates/share/UZUEFVNXHX.png"
     },
     {
         image:"https://i.postimg.cc/dQ9NtJQ6/Bootstrap-page-0001.jpg",
         title:"Bootstrap and Flexbox",
         issuer: "NxtWave",
         date:"November 21, 2022",
-        url: "https://certificates.ccbp.in/intensive/responsive-website?id=FBNKMZWOFM"
+        url: "https://media-content.ccbp.in/certificates/share/FBNKMZWOFM.png"
     },
     {
         image:"https://i.postimg.cc/152GydFM/Python-page-0001.jpg",
         title:"Python",
         issuer: "NxtWave",
         date:"February 16, 2023",
-        url: "https://certificates.ccbp.in/intensive/programming-foundations?id=SCXMZCVPYY"
+        url: "https://media-content.ccbp.in/certificates/share/SCXMZCVPYY.png"
     },
     {
         image:"https://i.postimg.cc/vTjVH14D/Java-Script-page-0001.jpg",
         title:"Javascript",
         issuer: "NxtWave",
         date:"September 22, 2023",
-        url: "https://certificates.ccbp.in/intensive/dynamic-web-application?id=IAGOLNOGQX"
+        url: "https://media-content.ccbp.in/certificates/share/IAGOLNOGQX.png"
     },
     {
         image:"https://i.postimg.cc/V5QkVXS9/SQL-page-0001.jpg",
         title:"SQL",
         issuer: "NxtWave",
         date:"May 06, 2023",
-        url: "https://certificates.ccbp.in/intensive/introduction-to-databases?id=LUDICGASLP"
+        url: "https://media-content.ccbp.in/certificates/share/LUDICGASLP.png"
     },
     {
         image:"https://i.postimg.cc/43LtFFXz/Javascript-Essentials-page-0001.jpg",
         title:"Javascript Essentials",
         issuer: "NxtWave",
         date:"September 24, 2023",
-        url: "https://certificates.ccbp.in/intensive/javascript-essentials?id=UIXWBCFSOV"
+        url: "https://media-content.ccbp.in/certificates/share/UIXWBCFSOV.png"
     },
     {
         image:"https://i.postimg.cc/RF2tv66h/Git-Command-Line-page-0001.jpg",
         title:"Git & Commandline",
         issuer: "NxtWave",
         date:"January 20, 2024",
-        url: "https://certificates.ccbp.in/intensive/developer-foundations?id=QWCEBMGKBP"
+        url: "https://media-content.ccbp.in/certificates/share/QWCEBMGKBP.png"
     },
     {
         image:"https://i.postimg.cc/htM7f3zH/React-Js-page-0001.jpg",
         title:"React JS",
         issuer: "NxtWave",
         date:"February 03, 2025",
-        url: "https://certificates.ccbp.in/intensive/react-js?id=VXKLQIOXMO"
+        url: "https://media-content.ccbp.in/certificates/share/VXKLQIOXMO.png"
     }
 ]
 
