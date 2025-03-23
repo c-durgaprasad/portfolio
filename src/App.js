@@ -25,7 +25,7 @@ function App() {
         <Route exact path="/education" element={<Education/>}/>
         <Route exact path="/experience" element={<WorkExperience/>}/>
         <Route exact path="/certificates" element={<Certificates/>}/>
-        <Route path="*" element={<NotFound to="/not-found" />}/>
+        <Route path="*" element={<NotFound/>}/>
       </Routes>
     </BrowserRouter>
   )
