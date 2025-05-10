@@ -6,27 +6,33 @@ import Footer from "../Footer"
 
 const educationData = [
   {
+    degree: "NxtWave (MERN Fullstack Developer)",
+    institution: "NxtWave's CCBP 4.0 Intensive",
+    year: "2022-Present",
+    grade: "NA"
+  },
+  {
     degree: "Master of Computer Applications (MCA)",
     institution: "Adikavi Nanayya University",
     year: "2024",
     grade: "7.5 CGPA",
   },
   {
-    degree: "NxtWave (MERN Fullstack Developer)",
-    institution: "Fellow at NxtWave's CCBP 4.0 Intensive",
-    year: "2022-Present",
-    grade: "NA"
+    degree: "Bachelor's Of Science (Computer Science)",
+    institution: "VSM College",
+    year: "2022",
+    grade: "9.08 CGPA",
   },
   {
     degree: "Intermediate (MPC)",
     institution: "Vikas Junior College",
-    year: "2022",
-    grade: "9.08 CGPA",
+    year: "2019",
+    grade: "9.71 CGPA",
   },{
-    degree: "Bachelor of Science in Computer Science",
-    institution: "VSM College",
-    year: "2022",
-    grade: "9.08 CGPA",
+    degree: "SSC",
+    institution: "SPSR ZP High School",
+    year: "2017",
+    grade: "9.0 CGPA",
   },
 ];
 
